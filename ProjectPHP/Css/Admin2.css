@@ -1,0 +1,49 @@
+.vertical-menu {
+	width: 200px; /* Set a width if you like */
+	/*height: 100%;*/
+}
+
+.vertical-menu a {
+	background-color: #eee; /* Grey background color */
+	color: black; /* Black text color */
+	display: block; /* Make the links appear below each other */
+	padding: 12px; /* Add some padding */
+	text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+	background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+	background-color: #43cc32; /* Add a green color to the "active/current" link */
+	color: white;
+}
+.dropdown-menu{
+	position: inherit;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+/*.vertical-menu {
+  width: 200px;
+  height: 150px;
+  overflow-y: auto;
+}*/
